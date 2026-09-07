@@ -3,7 +3,6 @@
 \header {
   title = "Piel Canela"
   composer = "Autor: Bobby Capó"
-  arranger = "Arreglo: Myrna L. Pérez"
 }
 
 \score {
@@ -29,7 +28,7 @@
   a4 r8 g a4 r8 g8  |  a4 r8 g a a a g  | a4 r8 g a4 r8 g8  |  a4 r8 g a4 g  |
   a4 r8 g a4 r8 g8  |  a4 r8 g f f f e  | g1~ | g2. fis8 g |
   %29-32
-  ais2~ ais8 a a g | g2 f4 f8 e | e4 d d8 e f g | gis4 r8 g8 a4 g | 
+  bes2~ bes8 a a g | g2 f4 f8 e | e4 d d8 e f g | <f aes>4 r8 g8 a4 g | 
   %33-40
   a4 r8 g8 a4 r8 g8 | a4 r8 g a a a g  | a4 r8 g a4 g  | a4 r8 g a4 g  |
   a4 r8 g a4 r8 g8  |  a4 r8 g f f f e  | }
@@ -50,14 +49,14 @@
   \relative c' {
   \clef "treble_8"
   %1-4 Intro
-  \partial 4 g8 gis | f f f f b b b b | g g g g f2 | f'8 f e e d d c c | b2. g8 gis | 
+  \partial 4 g8 gis | f f f f b b b b | g g g e f2 | f'8 f e e d d c c | b2. g8 gis | 
   %5-12
   \repeat volta 2 {
-  f f f f b b b b | b4 c2 g8 gis | f f f f b b b b | e2. d8 c | 
-  gis8 gis gis gis gis gis gis gis | gis4 a2 a8 a | fis fis fis fis fis fis fis fis | g2. g8 gis | 
+  f f f f b b b b | b4 c2 g8 gis | f f f f b b b b | <c e>2. d8 c | 
+  gis8 gis gis gis gis gis gis gis | gis4 a4 c4 a8 a | fis fis fis fis fis fis fis fis | g2 b4 g8 gis | 
   %13-20
-  f f f f b b b b | b4 c2 g8 gis | f f f f b b b b | e2. d8 c |
-  b b gis gis e e e e  | gis4 a2 a8 a | fis fis fis fis d d d d | g4 r8 g8 a4 g |
+  f f f f b b b b | b4 c2 g8 gis | f f f f b b b b | <c e>2. d8 c |
+  b b gis gis e e e e  | gis4 a2 a8 a | fis fis fis fis fis fis fis c' | b4 r8 g8 a4 g |
   %Coro 21-28
   a4 r8 g a4 r8 g8  |  a4 r8 g a a a g  | a4 r8 g a4 r8 g8  |  a4 r8 g a4 g  |
   a4 r8 g a4 r8 g8  |  a4 r8 g g g g g  | e'1~ | e2. d8 d |
@@ -87,16 +86,16 @@
   %5-12
   \repeat volta 2 {
   d2 g4 g | c, r4 a' r4 | d,2 g4 g | c, g' c, r4 |
-  e2 e | a4 e a r4 | d,2 d4 d | g b, g' r4 |  
+  e2 e | e4 e a r4 | d,2 d4 d | b b g' r4 |  
   %13-20
   d2 g4 g | c, g'8 gis a4 r4 | d,2 g4 g | c, g' c, r4 |
-  e2 e | a4 f a r4 | d,2 d4 d | g4 r4 r2 | 
+  e2 e | e4 f c2 | d2 d4 e8 fis | g4 r4 r2 | 
   %Coro 21-28
-  d8 g g4 r4 g4 | d8 g d4 r4 g4 | c,8 g' c,4 r4 g'4 | c,8 g' c,4 r4 c8 cis | 
-  d4 g r4 g4 | d8 g g4 r4 g4 | c,4 a' d4 b4 | e,4 c4 b4 ais' |
+  d8 g g4 r4 g4 | d8 g d4 r4 g4 | c,8 e c4 r4 g'4 | c,8 e c4 r4 c8 cis | 
+  d4 g r4 g4 | d8 g g4 r4 g4 | c,4 a' d4 b4 | e,4 c4 b'4 bes |
   %Coro 29-40
-  a a a e | a a a e | d2 c2 | b4 r4 r2 |
-  d8 g g4 r4 g | d8 g d4 r4 g4 | c,8 g' c,4 r4 g' | c,8 g' c,4 r4 c8 cis | 
+  a a a e | a a cis, cis | d2 c2 | b4 r4 r2 |
+  d8 g g4 r4 g | d8 g d4 r4 g4 | c,8 e c4 r4 g' | c,8 e c4 r4 c8 cis | 
   d4 g r4 g | d8 g g4 r4 g | 
    }
   \alternative {
