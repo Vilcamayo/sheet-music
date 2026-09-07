@@ -12,7 +12,7 @@
   %Intro 1-11 
   \textMark "Intro"
   r8  <e, a>8 <a c>  <c e> <e g> <e a>  |  <e a> << { a16 ( g ) } \\ { e8 } >> <c e>2  |   
-r8 << { \acciaccatura e8 d } \\ { b8} >> <b d> <a c> <gis b> <a c>  |  <b d>4 <a c>2 |
+r8 << { \acciaccatura e8 d } \\ { b8} >> <b d> <a c> <gis b> <a c> \glissando  |  <b d>4 <a c>2 |
  r8 <e a>8 <a c>  <c e> <e g> <e a>  |  <e a> << { \tuplet 3/2 { g16 ( a  g ) } } \\ { e8 } >> <c e>2  |
  r8 << { \acciaccatura e8 d } \\ { b8} >> <b d> <ais cis> <b d> <b e>  |  <b d>2.  |  <d f>2 ~ <d f>8 <<{f16 e }\\{c}>>  |  <b d>4 <a c>2  |  r2. | \bar "||" \break
 %Estrofa 1 cc.12-19 cc.20-27
