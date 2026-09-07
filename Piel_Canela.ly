@@ -85,6 +85,7 @@
   %1-4 Intro
   \partial 4 r4 | d2 g4 g | e2 ees | d4 e f fis | g d g r4 | 
   %5-12
+  \repeat volta 2 {
   d2 g4 g | c, r4 a' r4 | d,2 g4 g | c, g' c, r4 |
   e2 e | a4 e a r4 | d,2 d4 d | g b, g' r4 |  
   %13-20
@@ -96,11 +97,12 @@
   %Coro 29-40
   a a a e | a a a e | d2 c2 | b4 r4 r2 |
   d8 g g4 r4 g | d8 g d4 r4 g4 | c,8 g' c,4 r4 g' | c,8 g' c,4 r4 c8 cis | 
-  d4 g r4 g | d8 g g4 r4 g |
-  c,4 a' e' a, | c,8 g' a e' r2 | 
-
-  c,4 e8 g c, e g c | e4 r4 <c, e> r4 | 
-  
+  d4 g r4 g | d8 g g4 r4 g | 
+   }
+  \alternative {
+    { c,4 a' e' a, | c,8 g' a e' r2 | }
+    { c,4 e8 g c, e g c | e4 r4 <c, e> r4 | }
+   }
   }
 >>
   \layout {}
