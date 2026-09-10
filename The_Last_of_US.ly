@@ -59,8 +59,8 @@ g\3 b, e g\3 b, e g\3 b, e g\3 b, e |
 bes'\3 b, e a\3 b, e \acciaccatura {  g16\3 a\3 } g8\3 b, e e\3 b e |
 e\3 b e e\3 b e e\3 b e e\3 b e |
 %11-12
-e e, b' e b e, e,4 <e b' e b'>8 q q q | q q q q q q q8 r4 \once \hideNotes
-  \grace e'' \glissando b'8 g e
+e e, b'\3 e\2 b\3 e, e,4 \repeat unfold 4 {<e b' e b'\3>8}  | \repeat unfold 7 {<e b' e b'\3>8} r4 \once \hideNotes
+  \grace e'' \glissando b'8 g\2 e\1
    }
 \\
 \relative e, {
