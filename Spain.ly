@@ -19,11 +19,16 @@
      \tuplet 6/4 { d cis b d cis b } \tuplet 6/4 { cis b a g fis e } \tuplet 6/4 { d cis b a g fis } \tuplet 6/4 { e d cis b a g } | 
      fis4~fis16 fis32 (g) a (g) fis (e) fis16 (g) a b cis d e (d) | 
      fis (e) d cis b (a) g fis~fis8. <fis cis' e a cis fis>16 q8-. r8 | 
+     %
      e16 (g) b d fis (e) d cis d e fis g a (g) fis g |
      a b cis d e fis g gis a ais b bis cis8 cis16 cis |
      cis8-. a16 a8 fis fis cis cis \acciaccatura b'\glissando cis8 cis16 |
      cis16 r16 a16 a16 (a16) fis8 b,16 r16 cis (b) ais b cis d e |
-     f f (e) g r16 f r16  
+     %
+     f f (e) g r16 f r16 e \tuplet 6/4 { f (e) d e d (cis) } \tuplet 6/4 { d (cis b) cis (b) ais } |
+     \tuplet 6/4 {b ais (g) ais (g) fis} \tuplet 6/4 {g fis (e) } fis8 r16 a' a a a (g) fis e |
+     d (cis) b ais b cis  d (cis) b ais b cis d (cis) b8 |
+     \tuplet 6/4 {dis16 cis b dis cis b} \tuplet 6/4 {e dis b e dis b} \tuplet 6/4 {fis' e b gis' fis b,} a'4 |
      
 
 
