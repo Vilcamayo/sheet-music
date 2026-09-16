@@ -25,7 +25,9 @@ bes' b, e a b, e \acciaccatura {  g16 a } g8 b, e e b e |
 e b e e b e e b e e b e |
 %11-12
 e e, b' e b e, e,4 <e b' e b'>8 q q q | q q q q q q q8 r4 \once \hideNotes
-  \grace e'' \glissando b'8 g e
+  \grace f''8 \glissando b8 g e |
+%13-16
+d' b, e d' b, e d' <e,,, e' b' e b d'> q q q q 
    }
 \\
 \relative e, {
@@ -36,7 +38,7 @@ e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
-     }
+e2.   }
 >>
 
 \new TabStaff <<
@@ -71,6 +73,7 @@ e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
+e2.
      }
 
        >>
