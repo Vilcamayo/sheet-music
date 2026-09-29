@@ -30,6 +30,12 @@ e e, b' e b e, e,4 <e b' e b'>8 q q q | q q q q q q q8 r4 \once \hideNotes
 d' b, e d' b, e d' <e,,, e' b' e b d'> q q q q |
 cis''' b, e cis' b, e cis' <a,, a' b e cis' > q q q q |
 c'' b, e c' b, e c' <a,, a' b e c' > q q q q |
+b'' b, e b' b, e b' <e,,, e' b' e b b'> q \grace f''8 \glissando b8 g e |
+%17-20
+<e,, e' b' e b d'> q q q q q q q q q q q |
+<a a' b e cis' > q q q q q q q q q q q |
+<a a' b e c' > q q q q q q q q q q q |
+<e e' b' e b b'> q q q q q q q q q q q |
    }
 \\
 \relative e, {
@@ -40,7 +46,11 @@ e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
-e2.   }
+%11-12
+e2.  s2. | s1. |
+%13-20
+e1. | a1.  | a1.  | e1.  | 
+}
 >>
 
 \new TabStaff <<
@@ -64,7 +74,18 @@ bes'\3 b, e a\3 b, e \acciaccatura {  g16\3 a\3 } g8\3 b, e e\3 b e |
 e\3 b e e\3 b e e\3 b e e\3 b e |
 %11-12
 e e, b'\3 e\2 b\3 e, e,4 \repeat unfold 4 {<e b' e b'\3>8}  | \repeat unfold 7 {<e b' e b'\3>8} r4 \once \hideNotes
-  \grace e'' \glissando b'8 g\2 e\1
+  \grace e'' \glissando b'8 g\2 e\1 |
+%13-16
+d' b,\2 e\3 d' b,\2 e\3 d' <e,,, e' b' e b d'> q q q q |
+cis''' b,\2 e\3 cis' b,\2 e\3 cis' \repeat unfold 5 { <a,, a'\4 e'\3 b\2  cis' > } |
+c'' b,\2 e\3 c' b,\2 e\3 c' <a,, a'\4 b\2 e\3 c' > q q q q |
+b'' b,\2 e\3 b' b,\2 e\3 b' \repeat unfold 2 {  <e,,, e'\5 b'\4 e\3 b\2 b'> }   b'''8 g\2 e |
+%17-20
+<e,, e' b' e b d'> q q q q q q q q q q q |
+\repeat unfold 12 { <a a'\4 e'\3 b\2  c' > } |
+\repeat unfold 12 { <a a'\4 e'\3 b\2  c' > } |
+\repeat unfold 12 { <e e' b'\4 e\3 b\2 b'> } |
+
    }
 \\
 \relative e, {
@@ -75,7 +96,10 @@ e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
 e1.~ | e1. |
-e2.
+%11-12
+e2.  s2. | s1. |
+%13-20
+e1. | a1.  | a1.  | e1.  |
      }
 
        >>
