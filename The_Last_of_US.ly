@@ -27,7 +27,9 @@ e b e e b e e b e e b e |
 e e, b' e b e, e,4 <e b' e b'>8 q q q | q q q q q q q8 r4 \once \hideNotes
   \grace f''8 \glissando b8 g e |
 %13-16
-d' b, e d' b, e d' <e,,, e' b' e b d'> q q q q 
+d' b, e d' b, e d' <e,,, e' b' e b d'> q q q q |
+cis''' b, e cis' b, e cis' <a,, a' b e cis' > q q q q |
+c'' b, e c' b, e c' <a,, a' b e c' > q q q q |
    }
 \\
 \relative e, {
