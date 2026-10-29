@@ -35,11 +35,18 @@ metalofono = \new Staff {
 
  %1
 \partial 2
-c4\p r4 |
- r2 g'4-. ( g-. )  | b,8 ( d c4 ) r2 | d4 ( e a c,) | b2 c4 r4 |
+<<{e4. g8 | c4 b }\\{c,4\p r4 |
+ r2 } >> <b g' d'>4-. ( <c g' c>-. )  | 
+ << {b8 ( d <c e>4 )}\\ {<g f'> } >> f''4 e | 
+ <g,, d' b'>4  <c e c'> <<{a'2 } \\ {f,4 <fis c' > } >> | 
+ <g b g'>2  <<{e'4. g8 | c4 b }\\{c,4\p r4 | 
  \break
  %5
-r2 g'4-. ( g-. )  | b,8 ( d c4 ) r2 | d4 ( e a c, ) | b2 g'4 g | g4 r4 d4 ( c8 e | \break
+ r2 } >> <b g' d'>4-. ( <c g' c>-. )  | 
+ << {b8 ( d <c e>4 )}\\ {<g f'> } >> f''4 e |
+ <g,, d' b'>4  <c e c'> <<{a'2 } \\ {f,4 <fis c' > } >> | 
+ <g b g'>2 <g g' b>4 ( <g g' c> | 
+ <g g' b>4 ) r4 d4 ( c8 e | \break
 %10
 g4 ) r4 g ( a8 b | c4 ) c, a' a8 ( g ) | g2\fermata <c, g'>2\fz | a'8. b16 c4 c4.\fz c8 | <g d'>4-. <g e'>4-. g2\p |
 \break
