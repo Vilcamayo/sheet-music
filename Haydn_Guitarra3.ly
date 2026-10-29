@@ -95,9 +95,14 @@ c,2  | c4 b2 c4 (  | b4 a ) f' (e  | f g a2 ) |  g4 r4 c2 ( | c4 ) b2 c4 (  | \b
  %86
  b4 a4) f' ( e   |   f g a2 )  |  b,4 r4 g'4 ( fis)  |  g4 ( f8 e ) d4 ( c8 fis )   | g4. ( f8 ) e ( cis d b )  |  \break
 %91
-c ( d e d c e d c )  |  d4 r4 g8 ( f e ) e  |  f-. a (b) c~c |  \appoggiatura g8 f4 e ) d4. (e16 f ) | \break
+c ( d e d c e d c )  |  
+d4 r4 g8 ( f e ) e  |  
+f-. a (b) c~c c,16 ( d e8 a, ) |
+a8 ( b c b ) a4 (g | \break
  %95
- g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d c )  |  c (d16 e f g a b ) c4. (b8 |  \appoggiatura b a4 g ) a4. ( g8  |  \appoggiatura g8 f4 e ) d4. (e16 f ) | \break
+ g8 ) c4 a'8 e4 \acciaccatura g8 e4 |
+ e4 r4 a4.  ( g8 |
+
 %99
 g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d8. c16 )  |  c2 (c4.) bes8\pp ( | a2 ) g ( | g8) f4 e d8-. [ (d-. d-.) ] |  d1\fermata \espressivo | e1\pp \fermata \bar "|." 
    }
