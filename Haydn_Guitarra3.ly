@@ -101,10 +101,16 @@ f-. a (b) c~c c,16 ( d e8 a, ) |
 a8 ( b c b ) a4 (g | \break
  %95
  g8 ) c4 a'8 e4 \acciaccatura g8 e4 |
- e4 r4 a4.  ( g8 |
-
+ e4 r4 a4.  g8 (|
+g) f4 e8 dis (e f cis ) |  
+d ( gis, a b) c c ( b d) |
 %99
-g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d8. c16 )  |  c2 (c4.) bes8\pp ( | a2 ) g ( | g8) f4 e d8-. [ (d-. d-.) ] |  d1\fermata \espressivo | e1\pp \fermata \bar "|." 
+c ( e a, f' ) g, (c b) b |
+<c, c'>8 ( e g a ) bes ( a bes e,) |
+f\pp (g a b) c (b c bes) |
+a4 g f8 <f aes>-. ( q-. q-. )|   
+<f aes>1\fermata \espressivo | 
+<e g>1\pp \fermata \bar "|." 
    }
   }
 
