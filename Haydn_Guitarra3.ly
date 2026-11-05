@@ -33,10 +33,10 @@ metalofono = \new Voice <<
 
 \tempo "POCO ADAGIO CANTABILE"
   \time 2/2
-
+%voz violin 2
 \partial 2
 %1
-e4.\p ( g8    |   c4 b d c )    |   f, ( e ) f' ( e    |    b c ) a2 (    |   g ) e4. ( g8    | \break
+e4.\p ( g8    |   \stemUp c4 b d c )    |   f, ( e ) f' ( e    |    b c ) a2 (    |   g ) e4. ( g8    | \break
 %5
 c4 b d c )    |   f, ( e ) f' ( e     |     b c ) a2 (    |    g ) b4 ( c    |     b ) r4 b ( c    | \break
 %10
@@ -204,6 +204,74 @@ a4 g f8 <f aes>-. ( q-. q-. )|
 <f aes>1\fermata \espressivo | 
 <e g>1\pp \fermata \bar "|." 
    }
+
+%voz violonchelo
+
+\relative c {
+\clef "treble_8"
+\partial 2 
+c4 r4 | r2 b4 ( d ) | g, c r2 | g4 ( c f, fis ) | g2 c4 r4 | \break
+r2 b4 ( d ) | g, c r2 | g4 ( c f, fis ) | g2 g4 4 | g r4 g g | \break
+g r4 e4 ( f8 g ) | a2 d,4 d | g2 e'4. e8 | f4 c f,4. c'8 | g4 c f,2 | \break
+e4 ( f g ) g | c2  e4. e8 | f4 c f,4. c'8 | g4 c f,2 | e4 ( f g ) g | c2 \bar "||"  \break
+
+%21
+\partial 2
+s2 | s1*19 | s2 \bar "||" \break
+
+%41
+\partial 2 
+\mark "Var. II"
+c4. ( d8  | 
+  e4 d f e )   |   
+  d8 (b c4) a' (g   |   
+  f e) \after 8 \turn d4  (e8 c)  |  
+  g'2 c,4. ( d8  | \break
+  %45 
+  e4 d f e )   |   
+  d8 (b c4) a' (g   |   
+  f e) \after 8 \turn d4  (e8 c)  |  
+  g'2 d4 ( e  | \break
+  %49
+d8 b g4 ) f' ( e  | 
+d8 b g4 ) g' ( f  | 
+e4. ) e8 fis4 fis8 ( g )  |  
+g2 c4. ( b8  | \break
+%53
+\appoggiatura b a4 g ) a4. ( g8 |  
+\appoggiatura g8 f4 e ) d4. (e16 f ) | 
+g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d c )  |  
+c (d16 e f g a b ) c4. (b8 | 
+\break
+%57
+ \appoggiatura b a4 g ) a4. ( g8     |     
+ \appoggiatura g8 f4 e ) d4. (e16 f )    |     
+ g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d8. c16 )     |   c4 c \bar "||"  \break
+
+ %61
+\partial 2 
+s2    |    s1*7   | \break   
+%68
+r2 r8 g'8 (\acciaccatura f8 e d16 c)   |   g4 r16 g (b d) g8 (gis a fis)  |   g!4. f4 e d8~   |   d8 g, c b a aes aes a    | \break
+%72
+g4 g r2    |   r2 d'8 (cis c b)   |   a (a' gis g!) fis4 f   |   e8 (cis d f,) g2  |\break
+%76
+c4 r4 r2    |   r2 d8 (cis c b)   |   a (a' gis g) fis4 f   |   e8 (cis d f,) g2   |   c4 c \bar "||" \break
+
+%81
+ \partial 2
+ a2(  |   g2 gis4 a)  |   e (a) f (c'   |   d c) f (fis)   |   g g, a'2(   |   g gis4 a)   | \break
+ %86
+ e (a) f (c'   |   d c) f, (fis)   |   g1~   |   g1~   |   g1~   | \break 
+ %91
+ g1~   |   g4 a16 (b c d) e8 ( d c) c   |   c2 f,4 (e   |   d) a'8 (g fis4 f)   |\break
+ %95
+ e (f g) g,    |   c r4 r2   |   r2 dis8 (e f cis)   |   d (gis, a g) fis (d' f, g)   | \break
+ %96
+ e8 (cis' d f,) g2   |   c1~   |   c1~   |   c2~c8 <c c'>8-. q-. q-.  |   q1\espressivo \fermata   |   q1\pp \fermata \bar "|."   | \break
+ }
+
+
   >>
 
 \header {
