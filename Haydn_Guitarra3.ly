@@ -26,7 +26,7 @@ cuartina = {
 
  
 
-metalofono = \new Voice <<
+metalofono = <<
 \relative c {
 
 \clef "treble_8"
@@ -119,7 +119,10 @@ c4 a8 (d) c4 (b)   |   c r4 e8 (f dis e)   |   cis (d! b c) c4. (bes8)   |   a (
 g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2 e8 d)   |   c2 (b8) b-. ( b-. b-. )   |   b1\fermata \espressivo    |    c\pp\fermata \bar "|."
 
  }
+ \\
+ %viola
 \relative c {
+\voiceThree
 \clef "treble_8"
 \tempo "POCO ADAGIO CANTABILE"
   \time 2/2
@@ -127,8 +130,10 @@ g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2
 
  %1
 \partial 2
-c4\p r4 |
- r2 g'4-. ( g-. )  | b,8 ( d c4 ) r2 | d4 ( e a c,) | b2 c4 r4 |
+s2 |
+ s2 g'4-. ( g-. )  | 
+ b,8 ( d c4 ) r2 | 
+ d4 ( e a c,) | b2 c4 r4 |
  \break
  %5
 r2 g'4-. ( g-. )  | b,8 ( d c4 ) r2 | d4 ( e a c, ) | b2 g'4 g | g4 r4 d4 ( c8 e | \break
@@ -204,10 +209,11 @@ a4 g f8 <f aes>-. ( q-. q-. )|
 <f aes>1\fermata \espressivo | 
 <e g>1\pp \fermata \bar "|." 
    }
-
+\\
 %voz violonchelo
 
 \relative c {
+\voiceTwo
 \clef "treble_8"
 \partial 2 
 c4 r4 | r2 b4 ( d ) | g, c r2 | g4 ( c f, fis ) | g2 c4 r4 | \break
