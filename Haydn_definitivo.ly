@@ -49,7 +49,7 @@ g  ) b4 ( c |
  %10
  b) r4 e d |
  c2. <a c>8 ( <g b> ) |
- <g b>2\fermata
+ <g b>2\fermata c4. c8 |
  
 }
 \\
@@ -72,7 +72,9 @@ g  ) b4 ( c |
  %10
  <g' g,> r4 <<\new Voice {\shiftOn g4 ( \shiftOn a8  b |
  c4 ) c, a' s8 ( s ) |
- s2 }\\{e,4 f8 ( g) | a2 d4 d | g,2\fermata }>> 
+ s2 }\\{e,4 f8 ( g) | a2 d4 d | g,2\fermata } >> << {<c g'>2 }\\{e4. e8 | }>>
+ f4 c f, c' | g c 
+
  }
  >>   
  }
