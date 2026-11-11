@@ -32,88 +32,58 @@ metalofono = \new Staff {
 \tempo "POCO ADAGIO CANTABILE"
   \time 2/2
  \cuartina
-
  %1
 \partial 2
-<<{e4. g8 | c4 b }\\{c,4\p r4 |
- r2 } >> <b g' d'>4-. ( <c g' c>-. )  | 
- << {b8 ( d <c e>4 )}\\ {<g f'> } >> f''4 e | 
- <g,, d' b'>4  <c e c'> <<{a'2 } \\ {f,4 <fis c' > } >> | 
- <g b g'>2  <<{e'4. g8 | c4 b }\\{c,4\p r4 | 
+<<{e4. ( g8 | 
+c4 b d c ) | 
+f, ( e) f' (e |
+b c) a2 ( | 
+g  ) e4. ( g8 | \break
+%5
+c4 b d c ) | 
+f, ( e) f' (e |
+b c) a2 ( | 
+g  ) b4 ( c |
+ b) r b (c |
+ \break
+ %10
+ b) r4 e d |
+ c2. <a c>8 ( <g b> ) |
+ <g b>2\fermata
+ 
+}
+\\
+%VOCES GRAVES_____________________
+%alzar
+{c,4\p r4 |
+%1
+ r2 <b g' >4-. ( <c g' >-. ) |
+ <<\new Voice { \shiftOn b8 ( d c4 ))}\\{g s4 r2 | }>> 
+ <d' g,>4 ( <e c> <a f,> <c, fis,> ) | 
+ <b g>2 c4 r4 | 
  \break
  %5
- r2 } >> <b g' d'>4-. ( <c g' c>-. )  | 
- << {b8 ( d <c e>4 )}\\ {<g f'> } >> f''4 e |
- <g,, d' b'>4  <c e c'> <<{a'2 } \\ {f,4 <fis c' > } >> | 
- <g b g'>2 <g g' b>4 ( <g g' c> | 
- <g g' b>4 ) r4 <g d' b'>4 << {<g c'>}\\{\stemUp c8 e} >> | \break
-%10
-g4 ) r4 g ( a8 b | c4 ) c, a' a8 ( g ) | g2\fermata <c, g'>2\fz | a'8. b16 c4 c4.\fz c8 | <g d'>4-. <g e'>4-. g2\p |
-\break
-%15
-c,4 ( a'8 f) e4 ( \acciaccatura g8 f4 ) | e2 <c g'>\fz | a'8. b16 c4 c4.\fz c8 | <g d'>4-. <g e'>4-. g2\p |
-c,4 ( a'8 f) e4 ( \acciaccatura g8 f4 ) | e2 \bar "||" \break
+ r2 <b g' >4-. ( <c g' >-. ) |
+ <<\new Voice { \shiftOn b8 ( d c4 ))}\\{g s4 r2 | }>> 
+ <d' g,>4 ( <e c> <a f,> <c, fis,> ) | 
+ <b g>2 <g' g,>4 q |
+ q r4 <<\new Voice {\shiftOn d  c8 e | } \\{g,4 g |}>>
 
-%20
-\partial 2 
-\mark "Variación I"
-r2 | R1*19 | r2 \bar "||" 
-
-%41
-\partial 2 
-\mark "Var. II"
-r2 | r2 g,2 ( | g4) c r2 | r2 g2 ( | g4) r4 r2 | 
-\break
-%45
-r2 g2 ( | g4) c r2 | r2 g2 ( | g4 ) r4 g2~|
-\break
-%49
-g1~ | g2 <g ( d'>4 b ) | c2 (a) | g2 r2 |
-\break
-%53
-r1 | r2 b4.\fz ( c16 d ) | e8 ( f ) <f, f'>4 g2 | c4 r4 r2 |
-\break
-%57
-r1 | r2 b4.\fz ( c16 d ) | e8 (f) <f, f'>4 g2 | c4 r4 \bar "||" \break
-
-%61
-\partial 2
-\mark "Var. III"
-c'4. ( d8 ) | e4 (d f e) | d8 (b c4) a' (g | f e ) << { \after 8 \turn s4. } \\ {d4 (e8 c) }>> |  
-\break
-%64
-g'2 c,4. ( d8  ) |   e4 ( d f e )  |   d8 (b c4) a' (g   |   f e)   << { \after 8 \turn s4. } \\  {d4 (e8 c) } >>  |   
-\break
-%68
-   g'2 d4 ( e ) |  d8 ( b g4 ) f' ( e  ) | 
-    d8 (b g4) g' ( f  |  e4. ) e8 fis4 fis8 ( g )  | 
-\break
-%72
- g2 c4. ( b8  ) |  \appoggiatura b ( a4 g) a4. ( g8 ) |  \appoggiatura g8 ( f4 e ) d4. (e16 f ) | g8 ( a f d ) c4 (  \acciaccatura e8  d8. c16 )  | 
-\break
-%76
- c8 ( d16 e f g a b c4.)  ( b8 ) |  \appoggiatura b a4 ( g ) a4. ( g8  ) |  \appoggiatura g8 f4 ( e ) d4.  (e16 f ) | g8 ( a f d ) c4 ( \acciaccatura e8 d8. c16 )  |  c4 r4 \bar "||" 
-\break
-
-%81
-\partial 2
-\mark "Var. IV"
-c,2  | c4 b2 c4 (  | b4 a ) f' (e  | f g a2 ) |  g4 r4 c2 ( | c4 ) b2 c4 (  | \break 
- %86
- b4 a4) f' ( e   |   f g a2 )  |  b,4 r4 g'4 ( fis)  |  g4 ( f8 e ) d4 ( c8 fis )   | g4. ( f8 ) e ( cis d b )  |  \break
-%91
-c ( d e d c e d c )  |  d4 r4 g8 ( f e ) e  |  f-. a (b) c~c |  \appoggiatura g8 f4 e ) d4. (e16 f ) | \break
- %95
- g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d c )  |  c (d16 e f g a b ) c4. (b8 |  \appoggiatura b a4 g ) a4. ( g8  |  \appoggiatura g8 f4 e ) d4. (e16 f ) | \break
-%99
-g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d8. c16 )  |  c2 (c4.) bes8\pp ( | a2 ) g ( | g8) f4 e d8-. [ (d-. d-.) ] |  d1\fermata \espressivo | e1\pp \fermata \bar "|." 
-   }
-  }
-
+ %10
+ <g' g,> r4 <<\new Voice {\shiftOn g4 ( \shiftOn a8  b |
+ c4 ) c, a' s8 ( s ) |
+ s2 }\\{e,4 f8 ( g) | a2 d4 d | g,2\fermata }>> 
+ }
+ >>   
+ }
+}
 \header {
-  title = "Cuarteto de cuerdas en Do Mayor"
-  subtitle = "Opus 76 No. 3 (2o. Movimiento)"
-  composer = "Joseph Haydn"
+  title = \markup \fontsize #3 \bold "Poco adagio cantabile"
+  subtitle = \markup \fontsize #1 \italic "De: Cuarteto de cuerdas en do mayor, Op. 76, No. 3 \"Emperador\" (Hob. III:77)"
+  composer = \markup \bold "Franz Joseph Haydn"
+  
+  % Opcional: Elimina el pie de página por defecto de LilyPond si es para una edición limpia
+  tagline = ##f 
 }
 
 \paper {
