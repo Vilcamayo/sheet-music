@@ -98,7 +98,7 @@ g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2
 \\
 %VOCES GRAVES_____________________
 %alzar
-{c,4\p r4 |
+{c,,4\p r4 |
 %1
  r2 <b g' >4-. ( <c g' >-. ) |
  <<\new Voice { \shiftOn b8 ( d c4 ))}\\{g s4 r2 | }>> 
