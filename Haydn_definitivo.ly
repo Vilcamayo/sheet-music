@@ -86,7 +86,7 @@ g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2
 \\
 %VOCES GRAVES_____________________
 %alzar
-{c4\p r4 |
+{c,4\p r4 |
 %1
  r2 <b g' >4-. ( <c g' >-. ) |
  <<\new Voice { \shiftOn b8 ( d c4 ))}\\{g s4 r2 | }>> 
@@ -110,7 +110,20 @@ g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2
  a4 ( f g) g | c2 << {<c g'>2 }\\{e4. e8 | }>>
  f4 c f, c' | 
  g c <f, g'>2 |
- a4 ( f g) g | c2
+ a4 ( f g) g | c2 
+
+%81
+ \partial 2
+ a2(  |   g2 gis4 a)  |   e (a) f (c'   |   d c) f (fis)   |   g g, a'2(   |   g gis4 a)   | \break
+ %86
+ e (a) f (c'   |   d c) f, (fis)   |   g1~   |   g1~   |   g1~   | \break 
+ %91
+ g1~   |   g4 a16 (b c d) e8 ( d c) c   |   c2 f,4 (e   |   d) a'8 (g fis4 f)   |\break
+ %95
+ e (f g) g,    |   c r4 r2   |   r2 dis8 (e f cis)   |   d (gis, a g) fis (d' f, g)   | \break
+ %96
+ e8 (cis' d f,) g2   |   c1~   |   c1~   |   c2~c8 <c c'>8-. q-. q-.  |   q1\espressivo \fermata   |   q1\pp \fermata \bar "|."   | \break
+
  }
  >>   
  }
