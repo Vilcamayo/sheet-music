@@ -61,6 +61,9 @@ g  ) b4 ( c |
  <c, c'>4 (a'8 <f d'>) <e c'>4 (  \acciaccatura g8 <f b>4 ) |
  <e c'>2 \bar "||"
  \break
+
+
+
  %Variación 1
  \mark "Var. IV"
 %81
