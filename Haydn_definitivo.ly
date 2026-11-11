@@ -50,12 +50,43 @@ g  ) b4 ( c |
  b) r4 e d |
  c2. <a c>8 ( <g b> ) |
  <g b>2\fermata c4. c8 |
- 
+ <a c>8. <b d>16 <c e>4 <c f>4. ( <c e>8 ) |
+ <g b d-.>4 ( <g c e-.> ) b4. ( c16 d ) |
+ \break
+ %15
+ <c, c'>4 (a'8 <f d'>) <e c'>4 (  \acciaccatura g8 <f b>4 ) |
+ <e c'>2 c'4. c8 |
+ <a c>8. <b d>16 <c e>4 <c f>4. ( <c e>8 ) |
+ <g b d-.>4 ( <g c e-.> ) b4. ( c16 d ) |
+ <c, c'>4 (a'8 <f d'>) <e c'>4 (  \acciaccatura g8 <f b>4 ) |
+ <e c'>2 \bar "||"
+ \break
+ %Variación 1
+ \mark "Var. IV"
+%81
+\partial 2
+e4 (fis |   g2) d'4 (c)   |  
+   gis (a) c8. (d16) e4    |    a,8. (b16 c2) c4   |   b2 e4 (fis    |   g2) d'4 (c) | \break
+
+%86
+gis (a) c8. (d16 e4)   |   a,8. (b16 c2) c4   |   b2 b4 (c   |   b) r4 a8 (b c) c-.   |   b4 r4 r8 e4 d8 ( |  \break
+
+%91
+d) g, (c b a c b a )   |   b2 c8 ( d e ) g~   |   g f4 e8 a, ( b c cis )   |   d4 ( c!2 ) b8 (c16 d)   |   
+\break
+
+%95
+c4 a8 (d) c4 (b)   |   c r4 e8 (f dis e)   |   cis (d! b c) c4. (bes8)   |   a (b c b) a4 g~ |
+\break
+
+%99
+g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2 e8 d)   |   c2 (b8) b-. ( b-. b-. )   |   b1\fermata \espressivo    |    c\pp\fermata \bar "|."
+
 }
 \\
 %VOCES GRAVES_____________________
 %alzar
-{c,4\p r4 |
+{c4\p r4 |
 %1
  r2 <b g' >4-. ( <c g' >-. ) |
  <<\new Voice { \shiftOn b8 ( d c4 ))}\\{g s4 r2 | }>> 
@@ -73,8 +104,13 @@ g  ) b4 ( c |
  <g' g,> r4 <<\new Voice {\shiftOn g4 ( \shiftOn a8  b |
  c4 ) c, a' s8 ( s ) |
  s2 }\\{e,4 f8 ( g) | a2 d4 d | g,2\fermata } >> << {<c g'>2 }\\{e4. e8 | }>>
- f4 c f, c' | g c 
-
+ f4 c f, c' | 
+ g c <f, g'>2 |
+ %15
+ a4 ( f g) g | c2 << {<c g'>2 }\\{e4. e8 | }>>
+ f4 c f, c' | 
+ g c <f, g'>2 |
+ a4 ( f g) g | c2
  }
  >>   
  }
