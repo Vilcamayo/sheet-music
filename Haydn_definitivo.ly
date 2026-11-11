@@ -112,6 +112,8 @@ g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2
  g c <f, g'>2 |
  a4 ( f g) g | c2 
 
+
+
 %81
  \partial 2
  a2(  |   g2 gis4 a)  |   e (a) f (c'   |   d c) f (fis)   |   g g, a'2(   |   g gis4 a)   | \break
