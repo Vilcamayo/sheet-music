@@ -113,9 +113,8 @@ c b) c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4 \bar "||
 
 
 %Variación 3
- %61
- \mark "Var. III"
-  \partial 2 c'4.\p\3 ( d8  | 
+%61
+\partial 2 c'4.\p\3 ( d8  | 
   e4 d f e )   |   d8 (b c4) a' (g   |   f e)   \after 8 \turn d4  (e8 c)    |  
   \break
   %64
@@ -125,7 +124,8 @@ c b) c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4 \bar "||
     f e)   d4  (e8 c)   |  
     \break
     %68
-    g'2 d4-3 ( e  |  
+    g2
+  d'4-3 ( e  |  
     d8 b g4 ) f' ( e  |  
     d8 b g4 ) g' ( f  |  
     e4. ) e8 fis4 fis8 ( g )  |  
@@ -143,7 +143,7 @@ c b) c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4 \bar "||
  \mark "Var. IV"
 %81
 \partial 2
-e4 (fis |   g2) d4 (c)   |  
+e,4 (fis |   g2) d'4 (c)   |  
    gis (a) c8. (d16) e4    |    a,8. (b16 c2) c4   |   b2 e4 (fis    |   g2) d'4 (c) | \break
 
 %86
@@ -223,12 +223,18 @@ c (d16 e f g a b ) c4. (b8 |
  \appoggiatura g8 f4 e ) d4. (e16 f )    |     
  g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d8. c16 )     |   c4 c \bar "||"  \break
 
-
+%Variación 3
 %61
-\partial 2 
-s2    |    s1*7   |  
+ \mark "Var. III"
+ r2 | r1 | b'8 a'4 g f e8~ | e8 d4 c c c8 |
+\break
+
+%64
+b2 r8 a8 (e fis) | g1 ~ | g8 f'4 e16 (d) cis8 (d b c) | a (b gis a) f8 fis4 d8 |
+\break
+
 %68
-r2 r8 g'8 (\acciaccatura f8 e d16 c)   |   g4 r16 g (b d) g8 (gis a fis)  |   g!4. f4 e d8~   |   d8 g, c b a aes aes aes    | 
+g2 r8 g8 (\acciaccatura f8 e d16 c)   |   g4 r16 g (b d) g8 (gis a fis)  |   g!4. f4 e d8~   |   d8 g, c b a aes aes aes    | 
 %72
 g4 g r2    |   r2 d'8 (cis c b)   |   a (a' gis g!) fis4 f   |   e8 (cis d f,) g2  |
 %76
@@ -236,7 +242,7 @@ c4 r4 r2    |   r2 d8 (cis c b)   |   a (a' gis g) fis4 f   |   e8 (cis d f,) g2
 
 %81
  \partial 2
- a'2(  |   g2 gis4 a)  |   e (a) f (c'   |   d c) f (fis)   |   g g, a'2(   |   g gis4 a)   | \break
+ a2(  |   g2 gis4 a)  |   e (a) f (c'   |   d c) f (fis)   |   g g, a'2(   |   g gis4 a)   | \break
  %86
  e (a) f (c'   |   d c) f, (fis)   |   g1~   |   g1~   |   g1~   | \break 
  %91
