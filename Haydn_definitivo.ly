@@ -102,10 +102,10 @@ e,4. (f8 | g4 f) b( c | b8 d4 c8 ) c4 (b | a g ) b (c | b) r4  e,4. (f8 |   \bre
 %45
 g4 f) b( c | b8 d4 c8 ) c4 (b | a g ) b (c | b) r4 b (c) |  \break
 %49
-b2 b4 (c) | b2 <d, ( b'>4 <d ) g> | <c g'>2 c'4. (e8) | e4 (d) e4 (d |   \break
+b2 b4 (c) | b2 <d, ( b'>4 <d ) g> | <c g'>2 c'4. (e8) | e4 (d) e4 d |   \break
 
 %53
-c b) c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4  e'4 (d |
+c b c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4  e'4 (d |
 \break
 
 %57
@@ -176,9 +176,42 @@ g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2
  g c <f, g'>2 |
  a4 ( f g) g | c2 
 
-\mark "Variación 1"
+%Variación 1
+\mark "Variación I"
  %21
  \partial 2 s2 | s1*19 | s2 \bar "||"
+
+ %41
+\partial 2 
+\mark "Var. II"
+c4. ( d8  | 
+  e4 d f e )   |   
+  d8 (b c4) a' (g   |   
+  f e) \after 8 \turn d4  (e8 c)  |  
+  g'2 c,4. ( d8  | 
+  \break
+  %45 
+  e4 d f e )   |   
+  d8 (b c4) a' (g   |   
+  f e) \after 8 \turn d4  (e8 c)  |  
+  g'2 d4 ( e  | 
+  \break
+  %49
+d8 b g4 ) f' ( e  | 
+d8 b g4 ) g' ( f  | 
+e4. ) e8 fis4 fis8 ( g )  |  
+g2 c4. b8  | 
+%53
+\appoggiatura b a4 g  a4. ( g8 |  
+\appoggiatura g8 f4 e ) d4. (e16 f ) | 
+g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d c )  |  
+c (d16 e f g a b ) c4. (b8 | 
+\break
+%57
+ \appoggiatura b a4 g ) a4. ( g8     |     
+ \appoggiatura g8 f4 e ) d4. (e16 f )    |     
+ g8 [ ( a f d ) ] c4 ( \acciaccatura e8 d8. c16 )     |   c4 c \bar "||"  \break
+
 
 %61
 \partial 2 
