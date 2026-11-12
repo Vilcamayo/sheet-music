@@ -158,7 +158,7 @@ c4 a8 (d) c4 (b)   |   c r4 e8 (f dis e)   |   cis (d! b c) c4. (bes8)   |   a (
 \break
 
 %99
-g8 e ( f a e4) \acciaccatura g8 f4   |    e4. f'8 g (fis g) g   |    g4\pp (f!2 e8 d)   |   c2 (b8) b-. ( b-. b-. )   |   b1\fermata \espressivo    |    c\pp\fermata \bar "|."
+g8 e' ( f a e4) \acciaccatura g8 f4   |    e4. f8 g (fis g) g   |    g4\pp (f!2 e8 d)   |   c2 (b8) b-. ( b-. b-. )   |   b1\fermata \espressivo    |    c\pp\fermata \bar "|."
 
 }
 \\
