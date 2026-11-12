@@ -144,13 +144,13 @@ c b) c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4 \bar "||
 %81
 \partial 2
 e,4 (fis |   g2) d'4 (c)   |  
-   gis (a) c8. (d16) e4    |    a,8. (b16 c2) c4   |   b2 e4 (fis    |   g2) d'4 (c) | \break
+   gis (a) c8. (d16) e4    |    a,8. (b16 c2) c4   |   b2 e4 (fis    |   g2) d4 (c) | \break
 
 %86
-gis (a) c8. (d16 e4)   |   a,8. (b16 c2) c4   |   b2 b4 (c   |   b) r4 a8 (b c) c-.   |   b4 r4 r8 e4 d8 ( |  \break
+gis' (a) c,8. (d16 e4)   |   a8. (b16 c2) c4   |   b2 b4 (c   |   b) r4 a8 (b c) c-.   |   b4 r4 r8 e4 d8 ( |  \break
 
 %91
-d) g, (c b a c b a )   |   b2 c8 ( d e ) g~   |   g f4 e8 a, ( b c cis )   |   d4 ( c!2 ) b8 (c16 d)   |   
+d) g, (c b a c b a )   |   b2 c,8 ( d e ) g~   |   g f4 e8 a, ( b c cis )   |   d4 ( c!2 ) b8 (c16 d)   |   
 \break
 
 %95
@@ -158,7 +158,7 @@ c4 a8 (d) c4 (b)   |   c r4 e8 (f dis e)   |   cis (d! b c) c4. (bes8)   |   a (
 \break
 
 %99
-g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2 e8 d)   |   c2 (b8) b-. ( b-. b-. )   |   b1\fermata \espressivo    |    c\pp\fermata \bar "|."
+g8 e ( f a e4) \acciaccatura g8 f4   |    e4. f'8 g (fis g) g   |    g4\pp (f!2 e8 d)   |   c2 (b8) b-. ( b-. b-. )   |   b1\fermata \espressivo    |    c\pp\fermata \bar "|."
 
 }
 \\
@@ -198,11 +198,11 @@ g8 e ( f a e4) \acciaccatura g8 f4   |    e4. (f8) g (fis g) g   |    g4\pp (f!2
  %41
 \partial 2 
 \mark "Var. II"
-c4. ( d8  | 
-  e4 d f e )   |   
-  d8 (b c4) a' (g   |   
-  f e) \after 8 \turn d4  (e8 c)  |  
-  g'2 c,4. ( d8  | 
+c4.  d8  | 
+  e4 d  << { f e    |   
+  d8 (b c4) } \\ {g2~ |g4 }>> a' (g   |   
+  f e) << {\after 8 \turn d4  (e8 c)  |  
+  g'2 } \\ {g,2~| g4} >> c4. ( d8  | 
   %45 
   e4 d f e )   |   
   d8 (b c4) a' (g   |   
