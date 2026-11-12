@@ -95,6 +95,21 @@ b\2-0 g' d b g a f g c'4.\fz-4 ( b8  |
      c2 \bar "||" \break
 
 %Variación 2
+%41
+\partial 2
+\mark "Var. II"
+e,4. (f8 | g4 f) b( c | b8 d4 c8 ) c4 (b | a g ) b (c | b) r4  e,4. (f8 |   \break
+%45
+g4 f) b( c | b8 d4 c8 ) c4 (b | a g ) b (c | b) r4 b (c) |  \break
+%49
+b2 b4 (c) | b2 <d, ( b'>4 <d ) g> | <c g'>2 c'4. (e8) | e4 (d) e4 (d |   \break
+
+%53
+c b) c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4  e'4 (d |
+\break
+
+%57
+c b) c4. (b8 | a4 g ) f'16 (e f e f8 e16 d) | c4 ( a8 f) e4 (f) | e4 r4 \bar "||" \break
 
 
 %Variación 3
